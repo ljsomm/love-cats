@@ -1,0 +1,25 @@
+<div class="align-center">
+  <div class="cat-card">
+    <img class="cat-photo" [src]="this.gato.url">
+    <table class="informacoes">
+      <thead class="info-header">
+        Informações
+      </thead>
+      <tbody>
+        <tr>
+          <th>Altura</th>
+          <td>{{this.gato.height}}px</td>
+        </tr>
+        <tr>
+          <th>Largura</th>
+          <td>{{this.gato.width}}px</td>
+        </tr>
+        <tr>
+          <th>URL</th>
+          <td>{{this.gato.url}}</td>
+        </tr>
+      </tbody>
+    </table>
+    <button (click)="request()">Outro Gatinho</button>
+  </div>
+</div>
