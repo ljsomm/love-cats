@@ -3,4 +3,5 @@ footer{
   background-color: rgb(38, 0, 73);
   padding: 10px;
   flex: 1;
+  text-align: center;
 }
